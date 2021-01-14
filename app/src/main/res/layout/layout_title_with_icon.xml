@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textviewTitle"
+        android:textSize="20sp"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:text="Module Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginStart="10dp"
+        android:layout_alignBottom="@id/textviewTitle"
+        android:src="@drawable/ic_circle_red"
+        android:layout_toRightOf="@id/textviewTitle"
+        android:id="@+id/ImageIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_below="@+id/textviewTitle"
+        android:id="@+id/editText"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
